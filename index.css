@@ -1,0 +1,144 @@
+.container {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    /* t r b l */
+    margin: 25px 25px 0px 100px;
+    padding: 100px;
+}
+
+.signup {
+    border: 2px solid violet;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 150px;
+    background-color: beige;
+    box-shadow: 50px 50px 50px violet;
+    border-radius: 50px;
+    margin: 25px 350px 25px 350px
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    
+    justify-content: space-around;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.head-items {
+    display: flex;
+    color: black;
+    gap: 25px;
+
+}
+
+.logo-image {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.logo {
+
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    background-color: grey(255, 132, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images3.alphacoders.com/208/thumb-1920-208059.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+
+}
+
+.login-form {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    box-shadow: inset -50px -50px 50px rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    align-items: center;
+
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.login-button {
+    display: flex;
+
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.main-section {;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/seoraksan-mountains-is-covered-by-morning-fog-sunrise-seoul-korea_335224-313.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+}
