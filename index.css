@@ -49,18 +49,39 @@
 
 .header-container {
     display: flex;
-    
+
     justify-content: space-around;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    background-color: darkgrey;
 }
 
 .head-items {
     display: flex;
-    color: black;
-    gap: 25px;
+    list-style: none;
+    gap: 15px;
 
 }
+
+.head-items a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.head-items a:hover {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+
 
 .logo-image {
     height: 100px;
@@ -68,9 +89,7 @@
     object-fit: contain;
 }
 
-.logo {
-
-}
+.logo {}
 
 .head-container {
     display: flex;
@@ -89,6 +108,30 @@
     background-size: cover;
     object-fit: contain;
     background-attachment: fixed;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.vi-bg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
 
 }
 
@@ -120,25 +163,68 @@
 
 }
 
-.login-button {
-    display: flex;
+.login-button button {
 
-    justify-content: center;
-    width: 400px;
+    align-items: center;
     height: 30px;
-    width: 30px;
-    border-radius: 5px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: red;
+    justify-content: center;
 }
 
-.main-section {;
-    color:black;
+/*.main-section {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://img.freepik.com/free-photo/seoraksan-mountains-is-covered-by-morning-fog-sunrise-seoul-korea_335224-313.jpg?semt=ais_hybrid&w=740&q=80");
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     object-fit: contain;
     background-attachment: fixed;
+}
+
+.box {
+    height: 250px;
+    width: 250x;
+    background-image: url("https://www.topgear.com/sites/default/files/news-listicle/image/b16aa0251.jpg");
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-image: url("https://images.unsplash.com/photo-1680451553374-09d8d6a1ca58?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    height: 250px;
+    width: 250x;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+}*/
+
+.footer-content {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
 }
