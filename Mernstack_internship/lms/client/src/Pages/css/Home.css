@@ -1,0 +1,50 @@
+.home {
+    height: 150vh;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.para {
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    letter-spacing: 2rem;
+    transition: 1s;
+    padding: 20px;
+
+}
+
+.para:hover {
+    transform: scale(1.1);
+
+}
+
+.card {
+    height: 10 0px;
+    padding: 50px;
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.text {
+    padding: 10px;
+    text-align: left;
+    font-style: oblique;
+    font-size: medium;
+    border-radius: 40px;
+    border: 10px;
+    background-color: beige;
+}
